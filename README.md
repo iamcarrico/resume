@@ -1,4 +1,4 @@
-# resume
+# A Resume App
 
 > The resume of Ian J Carrico
 
@@ -24,4 +24,4 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 ## License
 
-The code in this repository is shared under the [MIT License](https://github.com/iamcarrico/resume-old/blob/master/LICENSE)
+The code in this repository is shared under the [MIT License](https://github.com/iamcarrico/resume/blob/master/LICENSE)
