@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "Ian Joseph Carrico || Resume",
+  "description": "A more complete online-version of my resume. Contacts availabe on request.",
   "author": "Ian Carrico",
   "private": true,
   "scripts": {
