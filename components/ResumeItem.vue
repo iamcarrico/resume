@@ -1,9 +1,14 @@
 <template>
   <article class="resume-item">
-    <h3 class="resume-item--name resume-item--item">{{ name }}</h3>
-    <div class="resume-item--location resume-item--item">{{ location }}</div>
-    <div class="resume-item--title resume-item--item">{{ title }}</div>
-    <div class="resume-item--date resume-item--item">{{ date }}</div>
+    <h3 class="resume-item--name resume-item--first">{{ name }}</h3>
+    <div class="resume-item--location resume-item--second">{{ location }}</div>
+    <div
+      v-for="(role, index) in roles"
+      :key="index"
+      class="resume-item--role">
+      <div class="resume-item--title resume-item--first">{{ role.title }}</div>
+      <div class="resume-item--date resume-item--second">{{ role.date }}</div>
+    </div>
     <slot />
   </article>
 </template>
@@ -17,15 +22,29 @@ export default {
     },
     location: {
       type: String,
-      required: true
+      required: false,
+      default: ''
     },
     title: {
       type: String,
-      required: true
+      required: false,
+      default: ''
     },
     date: {
       type: String,
-      required: true
+      required: false,
+      default: ''
+    },
+    roles: {
+      type: Array,
+      default() {
+        return [
+          {
+            title: this.title,
+            date: this.date
+          }
+        ]
+      }
     },
     href: {
       type: String,
@@ -38,18 +57,23 @@ export default {
 
 <style lang="scss">
 .resume-item {
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: 1em;
-  align-items: flex-end;
 
-  &--item {
+  &--role,
+  & {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+  &--first {
     width: 70%;
+  }
 
-    &:nth-child(even) {
-      width: 30%;
-      text-align: right;
-    }
+  &--second {
+    width: 30%;
+    text-align: right;
   }
 
   &--title {

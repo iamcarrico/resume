@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://ia.ncarri.co/fonts/futurapt/futura-pt-book.woff2') format('woff2'),
+       url('https://ia.ncarri.co/fonts/futurapt/futura-pt-book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url('https://ia.ncarri.co/fonts/futurapt/futura-pt-book-italic.woff2') format('woff2'),
+       url('https://ia.ncarri.co/fonts/futurapt/futura-pt-book-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://ia.ncarri.co/fonts/futurapt/futura-pt-medium.woff2') format('woff2'),
+       url('https://ia.ncarri.co/fonts/futurapt/futura-pt-medium.woff') format('woff');
+}
+
+
+/**
+ * Text changes.
+ */
+
+ body {
+  font-size: $base-font-size;
+  font-family: $body-font-family;
+  font-weight: 400;
+  background-color: $lt-grey;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+// Links
+//
+// The order of link states are based on Eric Meyer's article:
+// http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
+a {
+  transition: color .3s;
+  color: $link;
+
+  &:link {
+    color: $link;
+  }
+
+  &:visited {
+    color: $visited;
+  }
+
+  &:hover, &:focus {
+    //color: $lt-grey;
+  }
+
+  &:active, &.active {
+
+  }
+}
