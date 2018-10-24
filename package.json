@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "The resume of Ian J Carrico",
+  "description": "Ian Joseph Carrico || Resume",
   "author": "Ian Carrico",
   "private": true,
   "scripts": {
@@ -13,9 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "cross-env": "^5.2.0",
     "node-sass": "^4.9.3",
     "nuxt": "^2.0.0",
+    "nuxt-sass-resources-loader": "^2.0.5",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {

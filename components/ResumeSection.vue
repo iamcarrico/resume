@@ -1,8 +1,9 @@
 <template>
   <section class="resume-section">
     <h2 class="resume-section--title">{{ title }}</h2>
-
-    <slot />
+    <div class="resume-section--inner">
+      <slot />
+    </div>
   </section>
 </template>
 
@@ -18,4 +19,9 @@ export default {
 </script>
 
 <style lang="scss">
+.resume-section {
+  &--inner {
+    margin-left: 4em;
+  }
+}
 </style>

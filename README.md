@@ -20,3 +20,8 @@ $ yarn run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+
+## License
+
+The code in this repository is shared under the [MIT License](https://github.com/iamcarrico/resume-old/blob/master/LICENSE)

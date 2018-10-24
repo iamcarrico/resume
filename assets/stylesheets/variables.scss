@@ -1,0 +1,28 @@
+// Colors
+$blue       : #006daf;
+
+$dk-grey    : #999999;
+$lt-grey    : #EEEEEE;
+$black      : #2A2A2A;
+$white      : #FEFEFE;
+
+// Link colors.
+$link       : $black;
+$visited    : $black;
+
+// Font stuff
+$base-font-size   : 16px;
+$base-line-height : 1.45;
+$indent-amount    : 2em;
+
+// Font families
+$georgia:         Georgia, "Times New Roman", "DejaVu Serif", serif;
+$verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
+$tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
+$helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
+$arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+$system:          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+$body-font-family:  $system;
