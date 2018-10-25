@@ -195,7 +195,7 @@
         title="Take the Pain Out of Sass"
         date="October 2013" />
 
-      <p><i>Talks also give at: DrupalCon Latin America, DrupalCamp Austin, DrupalCamp San Diego, NERD Summit, ATX Sass, Full Stack NH, NYC Camp, and the Bay Area Drupal Camp</i></p>
+      <p class="resume--talk-text"><i>Talks also given at: DrupalCon Latin America, DrupalCamp Austin, DrupalCamp San Diego, NERD Summit, ATX Sass, Full Stack NH, NYC Camp, and the Bay Area Drupal Camp</i></p>
     </resume-section>
 
     <resume-section title="Additional Information">
@@ -226,5 +226,12 @@ export default {
   border-top: $blue 4px solid;
   background-color: $white;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+
+  &--talk-text {
+    $indent-amount: 7em;
+
+    text-indent: $indent-amount * -1;
+    margin-left: $indent-amount;
+  }
 }
 </style>
