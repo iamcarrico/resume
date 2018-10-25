@@ -50,7 +50,7 @@ export default {
   }
 
   &--inner {
-    margin-left: 4em;
+    margin-left: 3em;
   }
 }
 </style>

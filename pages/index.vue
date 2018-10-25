@@ -129,10 +129,12 @@
       </resume-item>
 
       <resume-item
-        name="ATX Sass"
-        location="Austin, TX"
-        title="Meetup Founder / Organizer"
-        date="July 2014 – May 2015" />
+        :roles="[
+          {title: 'ATX Sass Meetup Founder and Organizer', date: 'July 2014 – May 2015'},
+          {title: 'Community Guidelines Author', date: 'July 2014'}
+        ]"
+        name="Sass Community"
+        location="Austin, TX" />
 
       <resume-item
         name="Order of Omega Honors Organization"

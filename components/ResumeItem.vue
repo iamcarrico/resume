@@ -9,7 +9,11 @@
       <div class="resume-item--title resume-item--first">{{ role.title }}</div>
       <div class="resume-item--date resume-item--second">{{ role.date }}</div>
     </div>
-    <slot />
+    <div
+      v-if="!!this.$slots.default"
+      class="resume-item--text">
+      <slot />
+    </div>
   </article>
 </template>
 
@@ -57,7 +61,7 @@ export default {
 
 <style lang="scss">
 .resume-item {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 
   &--role,
   & {
@@ -78,6 +82,10 @@ export default {
 
   &--title {
     font-style: italic;
+  }
+
+  &--text {
+    margin-top: 0.5em;
   }
 }
 </style>
