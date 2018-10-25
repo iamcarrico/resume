@@ -1,6 +1,6 @@
 <template>
   <div class="resume">
-    <h1>Ian Joseph Carrico</h1>
+    <resume-head />
 
     <resume-section title="Education">
       <resume-item
@@ -209,11 +209,13 @@
 <script>
 import ResumeSection from '~/components/ResumeSection.vue'
 import ResumeItem from '~/components/ResumeItem.vue'
+import ResumeHead from '~/components/ResumeHead.vue'
 
 export default {
   components: {
     ResumeSection,
-    ResumeItem
+    ResumeItem,
+    ResumeHead
   }
 }
 </script>
@@ -221,11 +223,16 @@ export default {
 <style lang="scss">
 .resume {
   max-width: 960px;
-  margin: 2em auto;
-  padding: 2em;
   border-top: $blue 4px solid;
   background-color: $white;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  margin-bottom: 1em;
+
+  @media (min-width: 960px) {
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  }
 
   &--talk-text {
     $indent-amount: 7em;

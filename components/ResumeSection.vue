@@ -50,7 +50,11 @@ export default {
   }
 
   &--inner {
-    margin-left: 3em;
+    margin-left: 1em;
+
+    @media (min-width: 960px) {
+      margin-left: 3em;
+    }
   }
 }
 </style>

@@ -1,6 +1,10 @@
 <template>
   <article class="resume-item">
-    <h3 class="resume-item--name resume-item--first">{{ name }}</h3>
+    <h3 class="resume-item--name resume-item--first">
+      <link-or-text
+        :href="href"
+        :text="name" />
+    </h3>
     <div class="resume-item--location resume-item--second">{{ location }}</div>
     <div
       v-for="(role, index) in roles"
@@ -18,7 +22,12 @@
 </template>
 
 <script>
+import LinkOrText from '~/components/LinkOrText.vue'
+
 export default {
+  components: {
+    LinkOrText
+  },
   props: {
     name: {
       type: String,
@@ -45,7 +54,8 @@ export default {
         return [
           {
             title: this.title,
-            date: this.date
+            date: this.date,
+            href: ''
           }
         ]
       }
@@ -63,21 +73,23 @@ export default {
 .resume-item {
   margin-bottom: 2em;
 
-  &--role,
-  & {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-  }
+  @media (min-width: 620px) {
+    &--role,
+    & {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
 
-  &--first {
-    width: 70%;
-  }
+    &--first {
+      width: 70%;
+    }
 
-  &--second {
-    width: 30%;
-    text-align: right;
+    &--second {
+      width: 30%;
+      text-align: right;
+    }
   }
 
   &--title {
