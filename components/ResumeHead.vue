@@ -4,6 +4,9 @@
 
     <div class="resume-head--links">
       <social-link
+        type="website"
+        href="https://iamcarrico.com/" />
+      <social-link
         type="git-hub"
         href="https://github.com/iamcarrico/" />
       <social-link

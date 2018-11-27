@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import Website from '~/assets/svgs/website.svg'
 import Email from '~/assets/svgs/email.svg'
 import GitHub from '~/assets/svgs/github.svg'
 import Linkedin from '~/assets/svgs/linkedin.svg'
@@ -16,6 +17,7 @@ import Books from '~/assets/svgs/books.svg'
 
 export default {
   components: {
+    Website,
     Email,
     GitHub,
     Linkedin,

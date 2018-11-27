@@ -225,6 +225,29 @@
       <p class="resume--talk-text"><i><strong>Talks also given at:</strong> DrupalCon Latin America, DrupalCamp Austin, DrupalCamp San Diego, NERD Summit, ATX Sass, Full Stack NH, NYC Camp, and the Bay Area Drupal Camp</i></p>
     </resume-section>
 
+    <resume-section title="Special Projects">
+      <resume-item
+        name="Evan + Ian Wedding Website"
+        location="Houston, TX"
+        href="https://evian.wedding/#/"
+        title="A microsite honoring our wedding day"
+        date="December 9th, 2017" />
+
+      <resume-item
+        name="Stuff in Houston"
+        location="Houston, TX"
+        href="https://stuffinaustin.com/"
+        title="Built to share fun things to eat and do in Houston"
+        date="December 2017" />
+
+      <resume-item
+        name="Stuff in Austin"
+        location="Austin, TX"
+        href="https://stuffinaustin.com/"
+        title="Built for SassConf, a site built to share great things in Austin, TX"
+        date="February 2016" />
+    </resume-section>
+
     <resume-section title="Additional Information">
       <p><strong>Languages: </strong>English (Native), Spanish (Fluent), Mandarin (Fluent), Japanese (Intermediate)</p>
       <p><strong>Technology: </strong>Ruby on Rails, Node.js, PHP, Drupal, Linux server administration, Docker, Sass</p>
