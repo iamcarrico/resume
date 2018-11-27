@@ -24,15 +24,19 @@
 
     <resume-section title="Work">
       <resume-item
+        :roles="[
+          {title: 'Revenue Engineering Manager', date: 'October 2018 – Present '},
+          {title: 'Senior Performance Engineer ', date: 'July 2017 – September 2018'},
+          {title: 'Performance Engineer', date: 'March 2015 – June 2017'}
+        ]"
         name="Vox Media"
         href="https://www.voxmedia.com/"
-        location="Houston, TX"
-        title="Senior Performance Engineer / Revenue Engineering Manager"
-        date="March 2015 – Present">
+        location="Houston, TX">
         <ul>
           <li>Managed and led a team of five engineers to deliver new revenue products</li>
-          <li>Engineered an innovative approach to revenue generating code to more than triple important advertising metrics</li>
+          <li>Engineered an innovative approach to revenue generating code to more than triple key advertising metrics</li>
           <li>Moved all of Vox Media’s 9 brands to be served securely by HTTPS</li>
+          <li>Led company-wide effort to create and maintain performance standards for all engineering efforts</li>
           <li>Improved frontend performance of all Vox Media sites by over 50%</li>
         </ul>
       </resume-item>
@@ -43,6 +47,19 @@
         location="Austin, TX"
         title="Software Engineer"
         date="January 2012 – March 2015">
+        <strong>Major clients:</strong>
+        <link-or-text
+          href="https://www.worldpulse.com/en"
+          text="World Pulse" />
+        <link-or-text
+          href="https://www.economist.com/"
+          text="The Economist" />
+        <link-or-text
+          href="https://www.nbc.com/"
+          text="NBC" />
+        <link-or-text
+          href="https://som.yale.edu/"
+          text="Yale School of Management" />
         <ul>
           <li>Consulted with clients to provide full service project plans including vision, site architecture, technical guidelines, DevOps, and deployment processes</li>
           <li>Planned and built a website for women journalists across the globe to share their own stories and connect with each other</li>
@@ -53,6 +70,7 @@
       <resume-item
         name="Friday5"
         location="Austin, TX"
+        href="https://friday5.org/"
         title="Chief Technical Officer / Co-founder"
         date="July 2012 – October 2014">
         <ul>
@@ -65,6 +83,7 @@
       <resume-item
         name="SicolaMartin "
         location="Austin, TX"
+        href="http://yr-austin.com/"
         title="Junior Developer"
         date="July 2011 – January 2012">
         <ul>
@@ -76,6 +95,7 @@
       <resume-item
         name="Intel"
         location="Austin, TX"
+        href="https://www.intel.com/"
         title="Drupal Developer / Intern"
         date="February 2011 – July 2011">
         <ul>
@@ -88,6 +108,7 @@
         name="Hensel Phelps Construction Co."
         location="Greeley, CO"
         title="Server Administrator"
+        href="https://www.henselphelps.com/"
         date="May 2005 – August 2008">
         <ul>
           <li>Provided computer support to the corporate office and midwestern district</li>
@@ -112,6 +133,7 @@
         name="One America Appeal"
         location="College Station, TX "
         title="Chief Technical Officer"
+        href="https://oneamericaappeal.org/"
         date="September 2017 – Present">
         <ul>
           <li>Created a donation website and platform to process all $41 million in donations</li>
@@ -122,6 +144,7 @@
       <resume-item
         name="Drupal Magic / Aurora"
         title="Project Lead"
+        href="https://www.drupal.org/project/magic"
         date="November 2012 – July 2015">
         <ul>
           <li>Collaborate with community stakeholders to build an efficient front end framework for over 10k sites</li>
@@ -144,7 +167,7 @@
 
       <resume-item
         :roles="[
-          {title: 'Board of Advisors Member', date: 'January 2017 – Present'},
+          {title: 'Board of Advisors Member', date: 'January 2018 – Present'},
           {title: 'Vice President', date: 'Spring 2010 – Fall 2010'},
           {title: 'Secretary', date: 'Fall 2008'}
         ]"
@@ -156,24 +179,28 @@
       <resume-item
         name="Advertising Week"
         location="New York, NY"
+        href="http://www.advertisingweek.com/events/ny/2017/calendar/-newyork-2017-09-25-hacking-programmatic-technical-tips-for-improving-yield-performance-today"
         title="Hacking Programmatic: Technical Tips for Improving Yield & Performance"
         date="September 2017" />
 
       <resume-item
         name="South by Southwest"
         location="Austin, TX"
+        href="https://schedule.sxsw.com/2017/events/PP59803"
         title="DOM Ready: How Fast Load Times Alter User Behavior"
         date="March 2017" />
 
       <resume-item
         name="O'Reilly VelocityConf"
         location="New York, NY"
+        href="https://conferences.oreilly.com/velocity/vl-ca-2016/public/schedule/detail/50069"
         title="The Wild West of Media Performance: A Vox Story"
         date="June 2016" />
 
       <resume-item
         name="DrupalCon: Los Angeles"
         location="Los Angeles, CA"
+        href="https://events.drupal.org/losangeles2015/sessions/creating-culture-performance"
         title="Creating a Culture of Performance"
         date="May 2015" />
 
@@ -195,12 +222,13 @@
         title="Take the Pain Out of Sass"
         date="October 2013" />
 
-      <p class="resume--talk-text"><i>Talks also given at: DrupalCon Latin America, DrupalCamp Austin, DrupalCamp San Diego, NERD Summit, ATX Sass, Full Stack NH, NYC Camp, and the Bay Area Drupal Camp</i></p>
+      <p class="resume--talk-text"><i><strong>Talks also given at:</strong> DrupalCon Latin America, DrupalCamp Austin, DrupalCamp San Diego, NERD Summit, ATX Sass, Full Stack NH, NYC Camp, and the Bay Area Drupal Camp</i></p>
     </resume-section>
 
     <resume-section title="Additional Information">
       <p><strong>Languages: </strong>English (Native), Spanish (Fluent), Mandarin (Fluent), Japanese (Intermediate)</p>
       <p><strong>Technology: </strong>Ruby on Rails, Node.js, PHP, Drupal, Linux server administration, Docker, Sass</p>
+      <p><strong>Awards: </strong>2014 Young Developer of the Year Nominee, AVA Digital Awards 2015 Platinum (World Pulse), Best in Biz Awards 2015 Website of the Year (World Pulse), Silver Stevie International Business Award for Non-Profit Organization Website (World Pulse)</p>
     </resume-section>
 
   </div>
@@ -210,12 +238,14 @@
 import ResumeSection from '~/components/ResumeSection.vue'
 import ResumeItem from '~/components/ResumeItem.vue'
 import ResumeHead from '~/components/ResumeHead.vue'
+import LinkOrText from '~/components/LinkOrText.vue'
 
 export default {
   components: {
     ResumeSection,
     ResumeItem,
-    ResumeHead
+    ResumeHead,
+    LinkOrText
   }
 }
 </script>
@@ -235,7 +265,7 @@ export default {
   }
 
   &--talk-text {
-    $indent-amount: 7em;
+    $indent-amount: 7.3em;
 
     text-indent: $indent-amount * -1;
     margin-left: $indent-amount;
