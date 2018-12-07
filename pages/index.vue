@@ -120,10 +120,10 @@
 
     <resume-section title="Volunteer Community Work ">
       <resume-item
-        name="Barbara Bush Funeral"
+        name="George H.W. Bush & Barbara Bush Funerals"
         location="Houston, TX"
         title="Invitation System Engineer"
-        date="April 2018">
+        date="April 2018 / December 2018">
         <ul>
           <li>Ensured the proper execution of the invitation system and troubleshot any and all technical issues that arose</li>
         </ul>
