@@ -6,8 +6,8 @@
   <body {{ BODY_ATTRS }}>
     {{ APP }}
 
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <script>
+    <script class="production" async src='https://www.google-analytics.com/analytics.js'></script>
+    <script class="production">
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
     ga('create', 'UA-40742161-2', 'auto', {'siteSpeedSampleRate': 100});
     ga('send', 'pageview', {transport: 'beacon'});

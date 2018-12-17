@@ -49,7 +49,7 @@ module.exports = {
   hooks: {
     'generate:page': page => {
       const doc = cheerio.load(page.html)
-      doc(`body script`).remove()
+      doc(`body script:not(.production)`).remove()
       page.html = doc.html()
     }
   },
