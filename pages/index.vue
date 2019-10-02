@@ -4,6 +4,12 @@
 
     <resume-section title="Education">
       <resume-item
+        name="Georgetown University Law Center"
+        location="Washington, DC"
+        title="J.D. Candidate"
+        date="May 2022" />
+
+      <resume-item
         name="The University of Texas at Austin"
         location="Austin, TX"
         title="Bachelor of Arts in Asian Studies (East Asia)"
