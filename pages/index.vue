@@ -31,7 +31,7 @@
     <resume-section title="Work">
       <resume-item
         :roles="[
-          {title: 'Revenue Engineering Manager', date: 'October 2018 – Present '},
+          {title: 'Revenue Engineering Manager', date: 'October 2018 – August 2019 '},
           {title: 'Senior Performance Engineer ', date: 'July 2017 – September 2018'},
           {title: 'Performance Engineer', date: 'March 2015 – June 2017'}
         ]"
@@ -140,7 +140,7 @@
         location="College Station, TX "
         title="Chief Technical Officer"
         href="https://oneamericaappeal.org/"
-        date="September 2017 – Present">
+        date="September 2017 – August 2019">
         <ul>
           <li>Created a donation website and platform to process all $41 million in donations</li>
           <li>Coordinated with stakeholders from all living former president’s offices to design and build web presence</li>
@@ -255,7 +255,7 @@
     </resume-section>
 
     <resume-section title="Additional Information">
-      <p><strong>Languages: </strong>English (Native), Spanish (Fluent), Mandarin (Fluent), Japanese (Intermediate)</p>
+      <p><strong>Languages: </strong>English (Native), Spanish (Fluent), Mandarin (Intermediate)</p>
       <p><strong>Technology: </strong>Ruby on Rails, Node.js, PHP, Drupal, Linux server administration, Docker, Sass</p>
       <p><strong>Awards: </strong>2014 Young Developer of the Year Nominee, AVA Digital Awards 2015 Platinum (World Pulse), Best in Biz Awards 2015 Website of the Year (World Pulse), Silver Stevie International Business Award for Non-Profit Organization Website (World Pulse)</p>
     </resume-section>
