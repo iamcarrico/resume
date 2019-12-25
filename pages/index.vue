@@ -7,7 +7,7 @@
         name="Georgetown University Law Center"
         location="Washington, DC"
         title="J.D. Candidate"
-        date="May 2022" />
+        date="May 2022">Technology Law &amp; Policy Scholar</resume-item>
 
       <resume-item
         name="The University of Texas at Austin"
@@ -39,10 +39,10 @@
         href="https://www.voxmedia.com/"
         location="Houston, TX">
         <ul>
-          <li>Managed and led a team of five engineers to deliver new revenue products</li>
-          <li>Engineered an innovative approach to revenue generating code to more than triple key advertising metrics</li>
-          <li>Moved all of Vox Media’s 9 brands to be served securely by HTTPS</li>
-          <li>Led company-wide effort to create and maintain performance standards for all engineering efforts</li>
+          <li>Managed and led a team of five engineers to create a new line of revenue directly selling to partners</li>
+          <li>Tripled key advertising metrics by engineering innovative approach to all advertising code</li>
+          <li>Led all engineering &amp; editorial teams to assess, design, and execute the migration to HTTPS across all brands</li>
+          <li>Analyzed performance setbacks to create and implement new performance standards for all engineering teams</li>
           <li>Improved frontend performance of all Vox Media sites by over 50%</li>
         </ul>
       </resume-item>
@@ -67,9 +67,10 @@
           href="https://som.yale.edu/"
           text="Yale School of Management" />
         <ul>
-          <li>Consulted with clients to provide full service project plans including vision, site architecture, technical guidelines, DevOps, and deployment processes</li>
-          <li>Planned and built a website for women journalists across the globe to share their own stories and connect with each other</li>
-          <li>Created and taught 4 courses in web development best practices across the globe</li>
+          <li>Consulted with clients to provide full-service project plans including vision, site architecture, technical guidelines, DevOps, and deployment processes</li>
+          <li>Planned, architected, and built global websites with a focus on user privacy, security, and performance</li>
+          <li>Created and taught paid courses across the globe to beginners and experts regarding cutting edge web development practices</li>
+          <li>Collaborated with other experts to build open source tools, push forward programing languages & inform others</li>
         </ul>
       </resume-item>
 
@@ -124,26 +125,28 @@
       </resume-item>
     </resume-section>
 
-    <resume-section title="Volunteer Community Work ">
+    <resume-section title="Community Service">
       <resume-item
-        name="George H.W. Bush & Barbara Bush Funerals"
-        location="Houston, TX"
-        title="Invitation System Engineer"
-        date="April 2018 / December 2018">
+        name="The Veterans Consortium"
+        location="Washington, DC"
+        title="Pro Bono Clinic"
+        date="November 2019 – Present">
         <ul>
-          <li>Ensured the proper execution of the invitation system and troubleshot any and all technical issues that arose</li>
+          <li>Triage veterans’ legal concerns to identify the important legal concern and refer them to an appropriate legal organization</li>
         </ul>
       </resume-item>
 
       <resume-item
-        name="One America Appeal"
-        location="College Station, TX "
-        title="Chief Technical Officer"
-        href="https://oneamericaappeal.org/"
-        date="September 2017 – August 2019">
+        name="Office of George H.W. Bush"
+        location="Houston, TX"
+        title="Invitation System Engineer"
+        date="September 2017 – December 2018">
         <ul>
-          <li>Created a donation website and platform to process all $41 million in donations</li>
-          <li>Coordinated with stakeholders from all living former president’s offices to design and build web presence</li>
+          <li>Oversaw the sending of thousands of invitations, managed RSVPs, and maintained the funeral technical systems</li>
+          <li>Collaborated with the Chief of Staff &amp; other teams to build out funeral seating, distribute physical invitations, and assist VIPs</li>
+          <li>Anticipated and planned for several contingencies before the funerals to reduce possible complications</li>
+          <li>Engineered the web presence of the One America Appeal campaign in less than a week while collaborating with designers from the Office of President Obama yielding more than $42 million dollars in donations for hurricane relief </li>
+          <li>Devised and implemented a solution to a 3rd party’s platform failing at launch within an hour, preventing the loss of millions of dollars in donations from being lost</li>
         </ul>
       </resume-item>
 
@@ -153,7 +156,7 @@
         href="https://www.drupal.org/project/magic"
         date="November 2012 – July 2015">
         <ul>
-          <li>Collaborate with community stakeholders to build an efficient front end framework for over 10k sites</li>
+          <li>Collaborate with community stakeholders to build an efficient front end framework used by over 10,000 websites</li>
         </ul>
       </resume-item>
 
