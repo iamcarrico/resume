@@ -35,6 +35,12 @@
   font-family: $body-font-family;
   font-weight: 400;
   background-color: $lt-grey;
+
+  @media print {
+    font-family: $body-print-font-family;
+    font-size: 12px;
+    line-height: 1.25;
+  }
 }
 
 h1, h2, h3 {
@@ -67,5 +73,9 @@ a {
 
   &:active, &.active {
 
+  }
+
+  @media print {
+    text-decoration: none;
   }
 }

@@ -42,6 +42,11 @@ export default {
     margin-top: 1em;
   }
 
+  &--title {
+    font-variant: small-caps;
+    font-size: 2em;
+  }
+
   @media (min-width: 520px) {
     display: flex;
     justify-content: space-between;
@@ -50,6 +55,19 @@ export default {
     &--title,
     &--links {
       margin: 0;
+    }
+  }
+
+  @media print {
+    border-bottom: 4px solid $black;
+
+    &--title {
+      font-variant: small-caps;
+      font-size: 36px;
+    }
+
+    &--links {
+      display: none;
     }
   }
 }

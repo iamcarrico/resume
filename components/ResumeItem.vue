@@ -99,5 +99,39 @@ export default {
   &--text {
     margin-top: 0.5em;
   }
+
+  @media print {
+    margin-bottom: 12px;
+    page-break-inside: avoid;
+
+    &,
+    &--role {
+      &:before,
+      &:after {
+        content: ' ';
+        display: table;
+      }
+
+      &:after {
+        clear: both;
+      }
+    }
+
+    &--first,
+    &--second {
+      float: left;
+      width: 70%;
+    }
+    &--second {
+      width: 30%;
+      float: right;
+      text-align: right;
+    }
+
+    &--text {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 }
 </style>

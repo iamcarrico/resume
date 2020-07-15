@@ -5,8 +5,8 @@
     </main>
 
     <footer>
-      The source of this document is <a 
-        href="https://github.com/iamcarrico/resume" 
+      The source of this document is <a
+        href="https://github.com/iamcarrico/resume"
         target="_blank">shared on GitHub</a>.
     </footer>
   </div>
@@ -19,5 +19,9 @@ footer {
   font-size: 0.7em;
   font-style: italic;
   margin: 0 auto 3.2em auto;
+
+  @media print {
+    display: none;
+  }
 }
 </style>

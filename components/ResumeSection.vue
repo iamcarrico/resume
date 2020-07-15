@@ -1,8 +1,6 @@
 <template>
   <section class="resume-section">
-    <h2
-      class="resume-section--title"
-      v-html="coverInSpans" />
+    <h2 class="resume-section--title">{{ title }}</h2>
     <div class="resume-section--inner">
       <slot />
     </div>
@@ -16,20 +14,6 @@ export default {
       type: String,
       required: true
     }
-  },
-  computed: {
-    coverInSpans: function() {
-      return this.title
-        .split(' ')
-        .map(word => {
-          if (['and', 'of'].includes(word)) {
-            return word
-          } else {
-            return `<span class="word">${word}</span>`
-          }
-        })
-        .join(' ')
-    }
   }
 }
 </script>
@@ -37,16 +21,8 @@ export default {
 <style lang="scss">
 .resume-section {
   &--title {
-    text-transform: uppercase;
-    font-size: 1.2em;
-
-    .word {
-      display: inline-block;
-
-      &::first-letter {
-        font-size: 1.4em;
-      }
-    }
+    font-size: 1.4em;
+    font-variant: small-caps;
   }
 
   &--inner {
@@ -54,6 +30,22 @@ export default {
 
     @media (min-width: 960px) {
       margin-left: 3em;
+    }
+  }
+
+  @media print {
+    &--title {
+      margin-bottom: 0;
+      page-break-after: avoid;
+    }
+
+    &--inner {
+      margin-left: 36px;
+
+      p {
+        margin-top: 0;
+        margin-bottom: 4px;
+      }
     }
   }
 }

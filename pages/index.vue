@@ -310,8 +310,17 @@ export default {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
   }
 
+  @media print {
+    border-top: none;
+    box-shadow: none;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
   &--talk-text {
     $indent-amount: 7.3em;
+    page-break-inside: avoid;
 
     text-indent: $indent-amount * -1;
     margin-left: $indent-amount;
