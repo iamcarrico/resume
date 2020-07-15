@@ -28,7 +28,20 @@
         date="Summer 2009" />
     </resume-section>
 
+
+
     <resume-section title="Work">
+      <resume-item
+        name="Federal Communications Commission"
+        location="Washington, DC"
+        title="Summer Intern, Wireless Telecommunications Bureau, Office of the Bureau Chief"
+        date="May 2020 – August 2020">
+        <ul>
+          <li>Drafted orders to further the Commission’s policy goals concerning wireless spectrum usage</li>
+          <li>Summarized public comments in a coherent manner for the Commission to understand the public’s perspective</li>
+        </ul>
+      </resume-item>
+
       <resume-item
         :roles="[
           {title: 'Revenue Engineering Manager', date: 'October 2018 – August 2019 '},
@@ -133,6 +146,7 @@
         date="November 2019 – Present">
         <ul>
           <li>Triage veterans’ legal concerns to identify the important legal concern and refer them to an appropriate legal organization</li>
+          <li>Draft initial briefs of possible legal issues for appeals before the US Court of Appeals for Veterans Claims</li>
         </ul>
       </resume-item>
 
