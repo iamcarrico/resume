@@ -1,8 +1,8 @@
 <template>
   <a
     :href="href"
-    class="social-link"
-    target="_blank">
+    :target="href.startsWith('javascript:') ? false : '_blank'"
+    class="social-link">
     <component :is="type" />
   </a>
 </template>
@@ -14,6 +14,7 @@ import GitHub from '~/assets/svgs/github.svg'
 import Linkedin from '~/assets/svgs/linkedin.svg'
 import Twitter from '~/assets/svgs/twitter.svg'
 import Books from '~/assets/svgs/books.svg'
+import Print from '~/assets/svgs/print.svg'
 
 export default {
   components: {
@@ -22,7 +23,8 @@ export default {
     GitHub,
     Linkedin,
     Twitter,
-    Books
+    Books,
+    Print
   },
   props: {
     type: {

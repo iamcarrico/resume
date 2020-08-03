@@ -18,6 +18,9 @@
       <social-link
         type="books"
         href="https://www.goodreads.com/iamcarrico" />
+      <social-link
+        type="print"
+        href="javascript:window.print()" />
     </div>
   </header>
 </template>
