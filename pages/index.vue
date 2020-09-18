@@ -6,8 +6,13 @@
       <resume-item
         name="Georgetown University Law Center"
         location="Washington, DC"
-        title="J.D. Candidate"
-        date="May 2022">Technology Law &amp; Policy Scholar</resume-item>
+        title="Juris Doctor candidate"
+        date="May 2022">
+        <u>Journal</u>: Georgetown Law Technology Review (<em>Assistant Editor, Articles</em>) <br>
+        <u>Honors</u>: Technology Law &amp; Policy Scholar <br>
+        <u>Activities</u>: OutLaw (<em>Outreach Chair</em>, LGBT Group), Between Two Codes (<em>Founder</em>, Podcast) <br>
+        <u>Relevant Courses</u>: Information Privacy, National Security Law, Technology and Election Integrity, <br>Communications and Technology Law Clinic (Spring 2021)
+      </resume-item>
 
       <resume-item
         name="The University of Texas at Austin"

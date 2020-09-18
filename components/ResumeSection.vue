@@ -21,27 +21,18 @@ export default {
 <style lang="scss">
 .resume-section {
   &--title {
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-variant: small-caps;
-  }
-
-  &--inner {
-    margin-left: 1em;
-
-    @media (min-width: 960px) {
-      margin-left: 3em;
-    }
+    text-align: center;
+    border-bottom: 2px solid $dk-grey;
   }
 
   @media print {
     &--title {
-      margin-bottom: 0;
       page-break-after: avoid;
     }
 
     &--inner {
-      margin-left: 36px;
-
       p {
         margin-top: 0;
         margin-bottom: 4px;

@@ -96,6 +96,11 @@ export default {
     font-style: italic;
   }
 
+  &--role,
+  &--text {
+    padding-left: 1em;
+  }
+
   &--text {
     margin-top: 0.5em;
   }

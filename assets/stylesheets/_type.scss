@@ -51,6 +51,19 @@ h3 {
   margin-bottom: 0;
 }
 
+u {
+  text-decoration: none;
+  // Better display of underlines.
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
 // Links
 //
 // The order of link states are based on Eric Meyer's article:

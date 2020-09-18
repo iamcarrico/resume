@@ -47,7 +47,7 @@ export default {
 
   &--title {
     font-variant: small-caps;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   @media (min-width: 520px) {
@@ -62,11 +62,11 @@ export default {
   }
 
   @media print {
-    border-bottom: 4px solid $black;
-
     &--title {
       font-variant: small-caps;
       font-size: 36px;
+      text-align: center;
+      width: 100%;
     }
 
     &--links {
