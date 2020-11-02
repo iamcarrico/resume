@@ -22,6 +22,8 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Build 🔧
         run: yarn run build
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
