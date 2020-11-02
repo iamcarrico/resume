@@ -11,7 +11,8 @@
         <u>Journal</u>: Georgetown Law Technology Review (<em>Assistant Editor, Articles</em>) <br>
         <u>Honors</u>: Technology Law &amp; Policy Scholar <br>
         <u>Activities</u>: OutLaw (<em>Outreach Chair</em>, LGBT Group), Between Two Codes (<em>Founder</em>, Podcast) <br>
-        <u>Relevant Courses</u>: Information Privacy, National Security Law, Technology and Election Integrity, <br>Communications and Technology Law Clinic (Spring 2021)
+        <u>Relevant Courses</u>: Information Privacy Law, National Security Law, Technology and Election Integrity<br>
+        <u>Clinic</u>: Communications and Technology Law (Spring 2021)
       </resume-item>
 
       <resume-item
@@ -42,8 +43,10 @@
         title="Summer Intern, Wireless Telecommunications Bureau, Office of the Bureau Chief"
         date="May 2020 – August 2020">
         <ul>
-          <li>Drafted orders to further the Commission’s policy goals concerning wireless spectrum usage</li>
+          <li>Drafted orders to further the Commission’s policy goals concerning 5G spectrum usage</li>
+          <li>Researched novel areas of technology law, focusing on modern radio access networks and satellite spectrum</li>
           <li>Summarized public comments in a coherent manner for the Commission to understand the public’s perspective</li>
+          <li>Organized several networking meetups for the summer intern class at the Commission</li>
         </ul>
       </resume-item>
 
@@ -158,10 +161,10 @@
       <resume-item
         name="Office of George H.W. Bush"
         location="Houston, TX"
-        title="Invitation System Engineer"
+        title="Engineering Lead for One America Appeal and President & Mrs. Bush’s Funerals"
         date="September 2017 – December 2018">
         <ul>
-          <li>Oversaw the sending of thousands of invitations, managed RSVPs, and maintained the funeral technical systems</li>
+          <li>Oversaw the distribution of thousands of invitations, managed RSVPs, and maintained the funeral technical systems</li>
           <li>Collaborated with the Chief of Staff &amp; other teams to build out funeral seating, distribute physical invitations, and assist VIPs</li>
           <li>Anticipated and planned for several contingencies before the funerals to reduce possible complications</li>
           <li>Engineered the web presence of the One America Appeal campaign in less than a week while collaborating with designers from the Office of President Obama yielding more than $42 million dollars in donations for hurricane relief </li>
@@ -277,8 +280,9 @@
     </resume-section>
 
     <resume-section title="Additional Information">
-      <p><strong>Languages: </strong>English (Native), Spanish (Fluent), Mandarin (Intermediate)</p>
-      <p><strong>Technology: </strong>Ruby on Rails, Node.js, PHP, Drupal, Linux server administration, Docker, Sass</p>
+      <p><strong>Languages: </strong>English (native), Spanish (fluent), Mandarin (working proficiency)</p>
+      <p><strong>Technology: </strong>Ruby, PHP, Databases (MySQL), Sass, Node/JavaScript, Linux, Docker, Ansible</p>
+      <p><strong>Interests: </strong>Corde lisse performer, pie baker, founder of SullyHWBush Instagram account</p>
       <p><strong>Awards: </strong>2014 Young Developer of the Year Nominee, AVA Digital Awards 2015 Platinum (World Pulse), Best in Biz Awards 2015 Website of the Year (World Pulse), Silver Stevie International Business Award for Non-Profit Organization Website (World Pulse)</p>
     </resume-section>
 
