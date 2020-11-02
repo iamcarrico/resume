@@ -22,7 +22,7 @@ jobs:
       - name: Install Yarn Packages
         run: yarn --frozen-lockfile
       - name: Build 🔧
-        run: yarn run build && ls
+        run: yarn run generate
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
