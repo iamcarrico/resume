@@ -8,7 +8,7 @@
         location="Washington, DC"
         title="Juris Doctor candidate"
         date="May 2022">
-        <u>Journal</u>: <a href="https://georgetownlawtechreview.org/">Georgetown Law Technology Review</a> (<em>Assistant Editor, Articles</em>) <br>
+        <u>Journal</u>: <a target="_blank" href="https://georgetownlawtechreview.org/">Georgetown Law Technology Review</a> (<em>Assistant Editor, Articles</em>) <br>
         <u>Honors</u>: Technology Law &amp; Policy Scholar <br>
         <u>Activities</u>: OutLaw (<em>Outreach Chair</em>, LGBT Group), Between Two Codes (<em>Founder</em>, Podcast) <br>
         <u>Relevant Courses</u>: Information Privacy Law, National Security Law, Technology and Election Integrity<br>
