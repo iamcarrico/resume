@@ -1,6 +1,17 @@
 <template>
   <header class="resume-head">
-    <h1 class="resume-head--title">Ian Joseph Carrico</h1>
+    <div class="resume-head--names">
+      <h1 class="resume-head--title">Ian Joseph Carrico</h1>
+      <div class="resume-head--bar-memberships">Bar Memberships:
+        <a
+          target="_blank"
+          href="https://my.dcbar.org/directorymemberships?id=0014z00001q2L5ZAAU">District of Columbia</a> &
+
+        <a
+          target="_blank"
+          href="https://www.texasbar.com/AM/Template.cfm?Section=Find_A_Lawyer&template=/Customsource/MemberDirectory/MemberDirectoryDetail.cfm&ContactID=377448">Texas</a>
+      </div>
+    </div>
 
     <div class="resume-head--links">
       <social-link
@@ -41,6 +52,10 @@ export default {
 .resume-head {
   margin-bottom: 1em;
 
+  &--bar-memberships {
+    font-style: italic;
+  }
+
   &--links {
     margin-top: 1em;
   }
@@ -62,11 +77,14 @@ export default {
   }
 
   @media print {
+    &--names {
+      width: 100%;
+      text-align: center;
+    }
+
     &--title {
       font-variant: small-caps;
       font-size: 36px;
-      text-align: center;
-      width: 100%;
     }
 
     &--links {

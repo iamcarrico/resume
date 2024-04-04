@@ -6,9 +6,11 @@
       <resume-item
         name="Georgetown University Law Center"
         location="Washington, DC"
-        title="Juris Doctor candidate"
+        title="Juris Doctor"
         date="May 2022">
-        <u>Journal</u>: <a target="_blank" href="https://georgetownlawtechreview.org/">Georgetown Law Technology Review</a> (<em>Assistant Editor, Articles</em>) <br>
+        <u>Journal</u>: <a
+          target="_blank"
+          href="https://georgetownlawtechreview.org/">Georgetown Law Technology Review</a> (<em>Assistant Editor, Articles</em>) <br>
         <u>Honors</u>: Technology Law &amp; Policy Scholar <br>
         <u>Activities</u>: OutLaw (<em>Outreach Chair</em>, LGBT Group), Between Two Codes (<em>Founder</em>, Podcast) <br>
         <u>Relevant Courses</u>: Information Privacy Law, National Security Law, Technology and Election Integrity<br>
@@ -34,11 +36,49 @@
         date="Summer 2009" />
     </resume-section>
 
-
-
     <resume-section title="Work">
+
+      <resume-item
+        name="Covington & Burling, LLP"
+        href="https://www.cov.com/"
+        location="Washington, DC"
+        title=" Associate"
+        date="September 2022 – Present">
+        <ul>
+          <li>Perform national security and cybersecurity diligence for a variety of transactions, including clients in the technology, healthcare, energy, and defense sectors</li>
+          <li>Manage the full lifecycle of the review process before the Committee on Foreign Investment in the United States (CFIUS) and Team Telecom, including initial risk analysis, drafting full notices, and guiding clients to successful closings</li>
+          <li>Collaborate with cross-practice area groups for to provide </li>
+          <li>Evaluate and draft updates to a variety of transaction documents based on client’s individual risk profile and requirements</li>
+          <li>Lead pro bono representation to veterans before various military boards as part of the discharge upgrade process</li>
+        </ul>
+      </resume-item>
+
+      <resume-item
+        name="Department of Justice, National Security Division"
+        href="https://www.justice.gov/nsd"
+        location="Washington, DC"
+        title="Legal Intern, Office of Law and Policy"
+        date="August 2021 – November 2021">
+        <ul>
+          <li>Researched active legal matters for both domestic and international cases relevant to the office</li>
+          <li>Drafted memos to aid the office’s ongoing policy development for the department</li>
+        </ul>
+      </resume-item>
+
+      <resume-item
+        name="Covington & Burling, LLP"
+        href="https://www.cov.com/"
+        location="Washington, DC"
+        title="Summer Associate"
+        date="May 2021 – July 2021">
+        <ul>
+          <li>Drafting legal memos for various pro bono, antitrust, and data privacy matters for firm clients</li>
+        </ul>
+      </resume-item>
+
       <resume-item
         name="Federal Communications Commission"
+        href="https://www.fcc.gov/wireless-telecommunications"
         location="Washington, DC"
         title="Summer Intern, Wireless Telecommunications Bureau, Office of the Bureau Chief"
         date="May 2020 – August 2020">
