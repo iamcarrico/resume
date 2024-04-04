@@ -47,7 +47,7 @@
         <ul>
           <li>Perform national security and cybersecurity diligence for a variety of transactions, including clients in the technology, healthcare, energy, and defense sectors</li>
           <li>Manage the full lifecycle of the review process before the Committee on Foreign Investment in the United States (CFIUS) and Team Telecom, including initial risk analysis, drafting full notices, and guiding clients to successful closings</li>
-          <li>Collaborate with cross-practice area groups for to provide </li>
+          <li>Collaborate with cross-practice area groups to provide full spectrum legal advice tailored to the client’s needs</li>
           <li>Evaluate and draft updates to a variety of transaction documents based on client’s individual risk profile and requirements</li>
           <li>Lead pro bono representation to veterans before various military boards as part of the discharge upgrade process</li>
         </ul>
