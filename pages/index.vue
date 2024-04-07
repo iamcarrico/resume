@@ -2,54 +2,23 @@
   <div class="resume">
     <resume-head />
 
-    <resume-section title="Education">
-      <resume-item
-        name="Georgetown University Law Center"
-        location="Washington, DC"
-        title="Juris Doctor"
-        date="May 2022">
-        <u>Journal</u>: <a
-          target="_blank"
-          href="https://georgetownlawtechreview.org/">Georgetown Law Technology Review</a> (<em>Assistant Editor, Articles</em>) <br>
-        <u>Honors</u>: Technology Law &amp; Policy Scholar <br>
-        <u>Activities</u>: OutLaw (<em>Outreach Chair</em>, LGBT Group), Between Two Codes (<em>Founder</em>, Podcast) <br>
-        <u>Relevant Courses</u>: Information Privacy Law, National Security Law, Technology and Election Integrity<br>
-        <u>Clinic</u>: Communications and Technology Law (Spring 2021)
-      </resume-item>
+    <resume-section title="Professional Experience">
 
       <resume-item
-        name="The University of Texas at Austin"
-        location="Austin, TX"
-        title="Bachelor of Arts in Asian Studies (East Asia)"
-        date="May 2011" />
-
-      <resume-item
-        name="Beijing Foreign Studies University"
-        location="Beijing, China"
-        title="IES Abroad Intensive Language Program"
-        date="Fall 2009" />
-
-      <resume-item
-        name="University of Seville"
-        location="Sevilla, Spain"
-        title="Council on International Education Program"
-        date="Summer 2009" />
-    </resume-section>
-
-    <resume-section title="Work">
-
-      <resume-item
+        :roles="[
+          {title: 'Associate', date: 'September 2022 – Present'},
+          {title: 'Summer Associate', date: 'May 2021 – July 2021'}
+        ]"
         name="Covington & Burling, LLP"
         href="https://www.cov.com/"
-        location="Washington, DC"
-        title=" Associate"
-        date="September 2022 – Present">
+        location="Washington, DC">
         <ul>
-          <li>Perform national security and cybersecurity diligence for a variety of transactions, including clients in the technology, healthcare, energy, and defense sectors</li>
-          <li>Manage the full lifecycle of the review process before the Committee on Foreign Investment in the United States (CFIUS) and Team Telecom, including initial risk analysis, drafting full notices, and guiding clients to successful closings</li>
-          <li>Collaborate with cross-practice area groups to provide full spectrum legal advice tailored to the client’s needs</li>
-          <li>Evaluate and draft updates to a variety of transaction documents based on client’s individual risk profile and requirements</li>
-          <li>Lead pro bono representation to veterans before various military boards as part of the discharge upgrade process</li>
+          <li>Perform national security and cybersecurity deal diligence for clients in the technology, healthcare, energy, and defense sectors</li>
+          <li>Draft and negotiate transaction documents to maximize success given particularized risk profiles and business objectives </li>
+          <li>Manage the full lifecycle of reviews by the Committee on Foreign Investment in the United States (CFIUS) and Team Telecom, including initial risk analysis, drafting full notices, and guiding clients to successful closings</li>
+          <li>Collaborate with government contracts, transactions, and communications practitioners to support successful resolution of complex transactions and CFIUS / Team Telecom cases</li>
+          <li>Pro bono: represent veterans before various military tribunals to secure discharge upgrades</li>
+          <li>Lead firm diversity recruitment efforts and provide mentorship for LGBTQ+ summer associates</li>
         </ul>
       </resume-item>
 
@@ -66,17 +35,6 @@
       </resume-item>
 
       <resume-item
-        name="Covington & Burling, LLP"
-        href="https://www.cov.com/"
-        location="Washington, DC"
-        title="Summer Associate"
-        date="May 2021 – July 2021">
-        <ul>
-          <li>Drafting legal memos for various pro bono, antitrust, and data privacy matters for firm clients</li>
-        </ul>
-      </resume-item>
-
-      <resume-item
         name="Federal Communications Commission"
         href="https://www.fcc.gov/wireless-telecommunications"
         location="Washington, DC"
@@ -85,7 +43,7 @@
         <ul>
           <li>Drafted orders to further the Commission’s policy goals concerning 5G spectrum usage</li>
           <li>Researched novel areas of technology law, focusing on modern radio access networks and satellite spectrum</li>
-          <li>Summarized public comments in a coherent manner for the Commission to understand the public’s perspective</li>
+          <li>Summarized public comments related to rulemaking on wireless spectrum allocations</li>
           <li>Organized several networking meetups for the summer intern class at the Commission</li>
         </ul>
       </resume-item>
@@ -184,6 +142,39 @@
           <li>Researched and implemented new solutions to efficiently control Microsoft Exchange and Spam server</li>
         </ul>
       </resume-item>
+    </resume-section>
+
+    <resume-section title="Education">
+      <resume-item
+        name="Georgetown University Law Center"
+        location="Washington, DC"
+        title="Juris Doctor"
+        date="May 2022">
+        <u>Journal</u>: <a
+          target="_blank"
+          href="https://georgetownlawtechreview.org/">Georgetown Law Technology Review</a> (<em>Assistant Editor, Articles</em>) <br>
+        <u>Honors</u>: Technology Law &amp; Policy Scholar <br>
+        <u>Activities</u>: OutLaw (<em>Outreach Chair</em>, LGBT Group), Between Two Codes (<em>Founder</em>, Podcast)<br>
+        <u>Clinic</u>: Communications and Technology Law (Spring 2021)
+      </resume-item>
+
+      <resume-item
+        name="The University of Texas at Austin"
+        location="Austin, TX"
+        title="Bachelor of Arts in Asian Studies (East Asia)"
+        date="May 2011" />
+
+      <resume-item
+        name="Beijing Foreign Studies University"
+        location="Beijing, China"
+        title="IES Abroad Intensive Language Program"
+        date="Fall 2009" />
+
+      <resume-item
+        name="University of Seville"
+        location="Sevilla, Spain"
+        title="Council on International Education Program"
+        date="Summer 2009" />
     </resume-section>
 
     <resume-section title="Community Service">
