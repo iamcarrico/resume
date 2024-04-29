@@ -275,6 +275,7 @@
       <resume-item
         name="DrupalCon: Amsterdam"
         location="Amsterdam, Netherlands"
+        href="https://www.youtube.com/watch?v=lXvshs_yPCM"
         title="Getting Content to a Phone in Less Than 1000ms"
         date="September 2014" />
 
@@ -313,7 +314,9 @@
     <resume-section title="Additional Information">
       <p><strong>Languages: </strong>English (native), Spanish (fluent), Mandarin (working proficiency)</p>
       <p><strong>Technology: </strong>Ruby, PHP, Databases (MySQL), Sass, Node/JavaScript, Linux, Docker, Ansible</p>
-      <p><strong>Interests: </strong>Corde lisse performer, pie baker, founder of SullyHWBush Instagram account</p>
+      <p><strong>Interests: </strong>Corde lisse performer, pie baker, founder of the <a
+        href="https://www.instagram.com/SullyHWBush"
+        target="_blank">SullyHWBush Instagram account</a>, recreational swimmer</p>
       <p><strong>Awards: </strong>2014 Young Developer of the Year Nominee, AVA Digital Awards 2015 Platinum (World Pulse), Best in Biz Awards 2015 Website of the Year (World Pulse), Silver Stevie International Business Award for Non-Profit Organization Website (World Pulse)</p>
     </resume-section>
 
