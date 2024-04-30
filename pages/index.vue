@@ -182,7 +182,7 @@
         name="The Veterans Consortium"
         location="Washington, DC"
         title="Pro Bono Clinic"
-        date="November 2019 – Present">
+        date="November 2019 – May 2022">
         <ul>
           <li>Triage veterans’ legal concerns to identify the important legal concern and refer them to an appropriate legal organization</li>
           <li>Draft initial briefs of possible legal issues for appeals before the US Court of Appeals for Veterans Claims</li>
