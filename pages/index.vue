@@ -13,12 +13,13 @@
         href="https://www.cov.com/"
         location="Washington, DC">
         <ul>
-          <li>Perform national security and cybersecurity deal diligence for clients in the technology, healthcare, energy, and defense sectors</li>
-          <li>Draft and negotiate transaction documents to maximize success given particularized risk profiles and business objectives </li>
-          <li>Manage the full lifecycle of reviews by the Committee on Foreign Investment in the United States (CFIUS) and Team Telecom, including initial risk analysis, drafting full notices, and guiding clients to successful closings</li>
-          <li>Collaborate with government contracts, transactions, and communications practitioners to support successful resolution of complex transactions and CFIUS / Team Telecom cases</li>
-          <li>Pro bono: represent veterans before various military tribunals to secure discharge upgrades</li>
-          <li>Lead firm diversity recruitment efforts and provide mentorship for LGBTQ+ summer associates</li>
+          <li>Represent clients with enterprise-scale cloud-based SaaS and PaaS offerings in DOJ and state attorneys general False Claims Act investigations that include complex cybersecurity frameworks such as FedRAMP, GovRAMP, and NIST SP 800-171 & 800-53</li>
+          <li>Draft and negotiate various purchase agreements to maximize success given particularized risk profiles and business objectives </li>
+          <li>Perform national security and cybersecurity deal diligence for clients in various sectors include technology, healthcare, and defense</li>
+          <li>Manage the full lifecycle of national security reviews by CFIUS and Team Telecom, including initial risk analysis, drafting full notices, and acting as the point of contact for all parties, ultimately guiding clients to successful closings</li>
+          <li>Prepare and manage changed conditions packages and new applications for facility clearance applications, including Foreign Ownership, Control, or Influence (FOCI) mitigation packages</li>
+          <li>Manage cybersecurity incident response work flows, including analyzing client data loss and directing cybersecurity vendors</li>
+          <li>Pro bono: Represent low-income D.C. residents in various family matters including developing and executing a successful trial strategy to gain client increase in custody rights over child; represent veterans before military boards to secure discharge upgrades</li>
         </ul>
       </resume-item>
 
