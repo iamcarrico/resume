@@ -1,0 +1,35 @@
+---
+import githubSvg from '../assets/svgs/github.svg?raw';
+import linkedinSvg from '../assets/svgs/linkedin.svg?raw';
+import twitterSvg from '../assets/svgs/twitter.svg?raw';
+import emailSvg from '../assets/svgs/email.svg?raw';
+import websiteSvg from '../assets/svgs/website.svg?raw';
+import booksSvg from '../assets/svgs/books.svg?raw';
+import printSvg from '../assets/svgs/print.svg?raw';
+
+const svgMap: Record<string, string> = {
+  'git-hub': githubSvg,
+  linkedin: linkedinSvg,
+  twitter: twitterSvg,
+  email: emailSvg,
+  website: websiteSvg,
+  books: booksSvg,
+  print: printSvg,
+};
+
+const { type, href } = Astro.props;
+const isJs = href.startsWith('javascript:');
+---
+<a href={href} target={isJs ? undefined : '_blank'} class="social-link">
+  <Fragment set:html={svgMap[type]} />
+</a>
+
+<style lang="scss">
+.social-link {
+  margin: 0.25em;
+
+  svg {
+    fill: darken($blue, 10%);
+  }
+}
+</style>

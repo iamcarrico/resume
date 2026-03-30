@@ -1,0 +1,9 @@
+---
+const { text, href = '' } = Astro.props;
+---
+<span class="link-or-text">
+  {href
+    ? <a href={href} target="_blank">{text}</a>
+    : <span>{text}</span>
+  }
+</span>
