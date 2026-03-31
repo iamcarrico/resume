@@ -1,40 +1,14 @@
-@font-face {
-  font-family: 'Futura PT';
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url('/fonts/futura-pt-book.woff2') format('woff2'),
-       url('/fonts/futura-pt-book.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  src: url('/fonts/futura-pt-book-italic.woff2') format('woff2'),
-       url('/fonts/futura-pt-book-italic.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  src: url('/fonts/futura-pt-medium.woff2') format('woff2'),
-       url('/fonts/futura-pt-medium.woff') format('woff');
-}
-
-
 /**
  * Text changes.
  */
 
- body {
+body {
   font-size: $base-font-size;
   font-family: $body-font-family;
   font-weight: 400;
-  background-color: $lt-grey;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
 
   @media print {
     font-family: $body-print-font-family;
@@ -45,6 +19,7 @@
 
 h1, h2, h3 {
   margin-top: 0;
+  font-family: $heading-font-family;
 }
 
 h3 {
@@ -58,10 +33,10 @@ u {
   display: inline-block;
   line-height: 0.85;
   text-shadow:
-    2px 2px white,
-    2px -2px white,
-    -2px 2px white,
-    -2px -2px white;
+    2px 2px var(--color-bg),
+    2px -2px var(--color-bg),
+    -2px 2px var(--color-bg),
+    -2px -2px var(--color-bg);
 }
 
 // Links
@@ -70,22 +45,18 @@ u {
 // http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
 a {
   transition: color .3s;
-  color: $link;
+  color: var(--color-text);
 
   &:link {
-    color: $link;
+    color: var(--color-text);
   }
 
   &:visited {
-    color: $visited;
+    color: var(--color-text);
   }
 
   &:hover, &:focus {
-    //color: $lt-grey;
-  }
-
-  &:active, &.active {
-
+    color: var(--color-accent);
   }
 
   @media print {

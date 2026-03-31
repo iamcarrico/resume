@@ -1,10 +1,11 @@
 // Colors
-$blue       : #006daf;
+$terracotta : #C4622D;
+$grey       : #8A8580;
+$white      : #F7F5F2;
+$black      : #1C1C1E;
 
 $dk-grey    : #999999;
 $lt-grey    : #EEEEEE;
-$black      : #2A2A2A;
-$white      : #FEFEFE;
 
 // Link colors.
 $link       : $black;
@@ -18,13 +19,13 @@ $indent-amount    : 2em;
 // Font families
 $georgia:         Georgia, "Times New Roman", "DejaVu Serif", serif;
 $times:           "Times New Roman", Georgia, "DejaVu Serif", serif;
-$verdana:         Verdana, Tahoma, "DejaVu Sans", sans-serif;
-$tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
-$arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 
 $system:          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$futura: "Futura PT", $system;
 
-$body-font-family:  $futura;
+$playfair:        "Playfair Display", ui-serif, $georgia;
+$lora:            "Lora", ui-serif, $georgia;
+
+$body-font-family:        $lora;
+$heading-font-family:     $playfair;
 $body-print-font-family:  $times;

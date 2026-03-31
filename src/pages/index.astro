@@ -12,8 +12,19 @@ import LinkOrText from '../components/LinkOrText.astro';
     <ResumeSection title="Professional Experience">
 
       <ResumeItem
+        name="Accenture Federal Services"
+        href="https://www.accenture.com/us-en/industries/accenture-federal-services"
+        location="Washington, DC"
+        title="Cybersecurity, Supply Chain, and AI Risk Counsel"
+        date="February 2026 – Present">
+        <ul>
+          <li>Updates pending.</li>
+        </ul>
+      </ResumeItem>
+
+      <ResumeItem
         roles={[
-          {title: 'Associate', date: 'September 2022 – Present'},
+          {title: 'Associate', date: 'September 2022 – February 2026'},
           {title: 'Summer Associate', date: 'May 2021 – July 2021'}
         ]}
         name="Covington & Burling, LLP"
@@ -22,7 +33,7 @@ import LinkOrText from '../components/LinkOrText.astro';
         <ul>
           <li>Represent clients with enterprise-scale cloud-based SaaS and PaaS offerings in DOJ and state attorneys general False Claims Act investigations that include complex cybersecurity frameworks such as FedRAMP, GovRAMP, and NIST SP 800-171 &amp; 800-53</li>
           <li>Draft and negotiate various purchase agreements to maximize success given particularized risk profiles and business objectives</li>
-          <li>Perform national security and cybersecurity deal diligence for clients in various sectors include technology, healthcare, and defense</li>
+          <li>Perform national security and cybersecurity deal diligence for clients in various sectors including technology, healthcare, and defense</li>
           <li>Manage the full lifecycle of national security reviews by CFIUS and Team Telecom, including initial risk analysis, drafting full notices, and acting as the point of contact for all parties, ultimately guiding clients to successful closings</li>
           <li>Prepare and manage changed conditions packages and new applications for facility clearance applications, including Foreign Ownership, Control, or Influence (FOCI) mitigation packages</li>
           <li>Manage cybersecurity incident response work flows, including analyzing client data loss and directing cybersecurity vendors</li>
@@ -89,7 +100,7 @@ import LinkOrText from '../components/LinkOrText.astro';
           <li>Consulted with clients to provide full-service project plans including vision, site architecture, technical guidelines, DevOps, and deployment processes</li>
           <li>Planned, architected, and built global websites with a focus on user privacy, security, and performance</li>
           <li>Created and taught paid courses across the globe to beginners and experts regarding cutting edge web development practices</li>
-          <li>Collaborated with other experts to build open source tools, push forward programing languages &amp; inform others</li>
+          <li>Collaborated with other experts to build open source tools, push forward programming languages &amp; inform others</li>
         </ul>
       </ResumeItem>
 
@@ -125,8 +136,8 @@ import LinkOrText from '../components/LinkOrText.astro';
         title="Drupal Developer / Intern"
         date="February 2011 – July 2011">
         <ul>
-          <li>Develop custom modules for Drupal to manage a group wide site with integration with internal tools and Active Directory</li>
-          <li>Work with business divisions to ensure correct implementation of technology</li>
+          <li>Developed custom modules for Drupal to manage a group wide site with integration with internal tools and Active Directory</li>
+          <li>Worked with business divisions to ensure correct implementation of technology</li>
         </ul>
       </ResumeItem>
 
@@ -321,8 +332,8 @@ import LinkOrText from '../components/LinkOrText.astro';
 <style lang="scss">
 .resume {
   max-width: 960px;
-  border-top: $blue 4px solid;
-  background-color: $white;
+  border-top: var(--color-accent) 4px solid;
+  background-color: var(--color-card-bg);
   padding: 1em;
   margin-bottom: 1em;
 

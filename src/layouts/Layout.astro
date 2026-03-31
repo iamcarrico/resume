@@ -5,24 +5,57 @@ import '../assets/stylesheets/global.scss';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A more complete online-version of my resume. Contacts available on request." />
+    <meta name="description" content="A more complete online version of my resume. Contacts available on request." />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <title>Ian J Carrico || Resume</title>
+    <script is:inline>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
   </head>
   <body>
     <main>
       <slot />
     </main>
     <footer>
-      The source of this document is <a href="https://github.com/iamcarrico/resume" target="_blank">shared on GitHub</a>.
+      <div>The source of this document is <a href="https://github.com/iamcarrico/resume" target="_blank">shared on GitHub</a>.</div>
+      <div id="va-disclosure">* Limited admission into the Virginia Bar as a corporate counsel registrant under Part II.</div>
     </footer>
+    <script is:inline>
+      (function () {
+        var STORAGE_KEY = 'theme';
+
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+        }
+
+        var btn = document.getElementById('toggle-theme');
+        if (btn) {
+          btn.onclick = function () {
+            var current = document.documentElement.getAttribute('data-theme');
+            var next = current === 'dark' ? 'light' : 'dark';
+            applyTheme(next);
+            localStorage.setItem(STORAGE_KEY, next);
+          };
+        }
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+          if (!localStorage.getItem(STORAGE_KEY)) {
+            applyTheme(e.matches ? 'dark' : 'light');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
 
 <style lang="scss">
 footer {
   text-align: center;
-  color: $dk-grey;
+  color: var(--color-grey);
   font-size: 0.7em;
   font-style: italic;
   margin: 0 auto 3.2em auto;
