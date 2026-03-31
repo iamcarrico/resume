@@ -9,3 +9,4 @@
 # Production-Only Headers
 https://resume.carri.co
   Strict-Transport-Security: max-age=31536000
+  Access-Control-Allow-Origin: https://resume.carri.co
