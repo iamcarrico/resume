@@ -50,9 +50,9 @@ export default defineConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          includePaths: [stylesheetsPath],
-          additionalData: `@import "variables";`,
-          silenceDeprecations: ['legacy-js-api', 'import', 'global-builtin', 'color-functions'],
+          loadPaths: [stylesheetsPath],
+          additionalData: `@use "variables" as *;`,
+          silenceDeprecations: ['global-builtin', 'color-functions'],
         },
       },
     },
