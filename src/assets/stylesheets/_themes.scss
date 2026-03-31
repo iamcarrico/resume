@@ -1,0 +1,46 @@
+/**
+ * Theme custom properties — light (default) and dark overrides.
+ * All color usage should reference these vars, not Sass variables directly.
+ */
+
+:root {
+  --color-bg:           #{$white};
+  --color-card-bg:      #ffffff;
+  --color-text:         #{$black};
+  --color-grey:         #{$grey};
+  --color-accent:       #{$terracotta};
+  --color-accent-dark:  #AA4A1F;
+  --color-accent-hover: #A1431C;
+  --color-border:       #A89E98;
+  --color-footer-bg:    #F5F3F0;
+  --icon-sun-display:   none;
+  --icon-moon-display:  block;
+}
+
+[data-theme="light"] {
+  --color-bg:           #{$white};
+  --color-card-bg:      #ffffff;
+  --color-text:         #{$black};
+  --color-grey:         #{$grey};
+  --color-accent:       #{$terracotta};
+  --color-accent-dark:  #AA4A1F;
+  --color-accent-hover: #A1431C;
+  --color-border:       #A89E98;
+  --color-footer-bg:    #F5F3F0;
+  --icon-sun-display:   none;
+  --icon-moon-display:  block;
+}
+
+[data-theme="dark"] {
+  --color-bg:           #18181a;
+  --color-card-bg:      #232325;
+  --color-text:         #f0ede8;
+  --color-grey:         #9a948e;
+  --color-accent:       #d4744a;
+  --color-accent-dark:  #{$terracotta};
+  --color-accent-hover: #D48159;
+  --color-border:       #3a3a3c;
+  --color-footer-bg:    #111113;
+  --icon-sun-display:   block;
+  --icon-moon-display:  none;
+}

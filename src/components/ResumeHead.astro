@@ -1,0 +1,104 @@
+---
+import SocialLink from './SocialLink.astro';
+import sunSvg from '../assets/svgs/sun.svg?raw';
+import moonSvg from '../assets/svgs/moon.svg?raw';
+---
+<header class="resume-head">
+  <div class="resume-head--names">
+    <h1 class="resume-head--title">Ian Joseph Carrico</h1>
+    <div class="resume-head--bar-memberships">Bar Memberships:
+      <a target="_blank" href="https://my.dcbar.org/directorymemberships?id=0014z00001q2L5ZAAU">District of Columbia</a>,
+      <a target="_blank" href="https://www.texasbar.com/AM/Template.cfm?Section=Find_A_Lawyer&template=/Customsource/MemberDirectory/MemberDirectoryDetail.cfm&ContactID=377448">Texas</a>, &amp;
+      Virginia<a class="va-disclosure" href="#va-disclosure">*</a>
+    </div>
+  </div>
+
+  <div class="resume-head--links">
+    <SocialLink type="website" href="https://iamcarrico.com/" />
+    <SocialLink type="git-hub" href="https://github.com/iamcarrico/" />
+    <SocialLink type="linkedin" href="https://www.linkedin.com/in/iancarrico/" />
+    <SocialLink type="twitter" href="https://twitter.com/iamcarrico" />
+    <SocialLink type="books" href="https://www.goodreads.com/iamcarrico" />
+    <SocialLink type="print" href="javascript:window.print()" />
+    <button id="toggle-theme" class="theme-toggle" aria-label="Toggle dark mode">
+      <Fragment set:html={sunSvg} />
+      <Fragment set:html={moonSvg} />
+    </button>
+  </div>
+</header>
+
+<style lang="scss">
+.resume-head {
+  margin-bottom: 1em;
+
+  &--bar-memberships {
+    font-style: italic;
+  }
+
+  &--links {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+  }
+
+  .va-disclosure {
+    text-decoration: none;
+  }
+
+  &--title {
+    font-variant: small-caps;
+    font-size: 2.5em;
+  }
+
+  @media (min-width: 520px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &--title,
+    &--links {
+      margin: 0;
+    }
+  }
+
+  @media print {
+    &--names {
+      width: 100%;
+      text-align: center;
+    }
+
+    &--title {
+      font-variant: small-caps;
+      font-size: 36px;
+    }
+
+    &--links {
+      display: none;
+    }
+  }
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0.25em;
+  padding: 0;
+  color: var(--color-accent-dark);
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+
+  :global(.icon-sun) {
+    display: var(--icon-sun-display, none);
+  }
+
+  :global(.icon-moon) {
+    display: var(--icon-moon-display, block);
+  }
+}
+</style>

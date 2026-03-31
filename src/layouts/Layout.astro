@@ -1,0 +1,36 @@
+---
+import '../assets/stylesheets/global.scss';
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A more complete online version of my resume. Contacts available on request." />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>Ian J Carrico || Resume</title>
+    <script src="../scripts/theme.js"></script>
+  </head>
+  <body>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <div>The source of this document is <a href="https://github.com/iamcarrico/resume" target="_blank">shared on GitHub</a>.</div>
+      <div id="va-disclosure">* Limited admission into the Virginia Bar as a corporate counsel registrant under Part II.</div>
+    </footer>
+  </body>
+</html>
+
+<style lang="scss">
+footer {
+  text-align: center;
+  color: var(--color-grey);
+  font-size: 0.7em;
+  font-style: italic;
+  margin: 0 auto 3.2em auto;
+
+  @media print {
+    display: none;
+  }
+}
+</style>
